@@ -2,8 +2,10 @@
 
 A lightweight JavaScript library for tracking and intercepting API requests in web applications. This tool helps developers debug API interactions, capture specific requests, and modify request/response data on the fly.
 
-## Features
+## Test in production
+https://github.com/user-attachments/assets/f86eeecc-4ea3-4e77-86c9-864397252cf4
 
+## Features
 - 🔍 Track all fetch and XMLHttpRequest API calls
 - 📊 Group and filter requests by endpoint
 - 🎯 Capture specific API requests based on URL patterns
