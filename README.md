@@ -25,7 +25,7 @@ Add the script tag to your HTML:
 
 ### NPM (coming soon)
 ```javascript
-npm install digitag-api-logger
+-
 ```
 BASIC USAGE
 ----------
