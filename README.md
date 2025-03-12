@@ -17,17 +17,17 @@ A lightweight JavaScript library for tracking and intercepting API requests in w
 ### Direct include
 
 Add the script tag to your HTML:
-```
+```javascript
 `<script src="digitag-api-logger.js"></script>`
 ```
 
 ### NPM (coming soon)
-```
+```javascript
 npm install digitag-api-logger
 ```
 BASIC USAGE
 ----------
-```
+```javascript
 // Initialize the logger
 DigitagApiLogger.init({
   logToConsole: true,
@@ -58,7 +58,7 @@ CAPTURING SPECIFIC REQUESTS
 
 The `capture` method allows you to intercept specific API requests:
 
-```
+```javascript
 // Capture a specific API endpoint
 const newsletterCapture = DigitagApiLogger.capture(
   "POST",                     // HTTP method (or "*" for any method)
@@ -82,7 +82,7 @@ CAPTURING RESPONSE DATA
 ---------------------
 
 For GET requests or when you need to access response data:
-```
+```javascript
 DigitagApiLogger.capture("GET", "api.example.com/products", (data, request) => {
   // Check if this is response data
   if (request.isResponse) {
@@ -100,12 +100,14 @@ DEBUG VS PRODUCTION MODE
 ----------------------
 
 Toggle between debug mode (with console logs) and production mode (silent):
-
+```javascript
 // Enable debug mode
 DigitagApiLogger.enableConsoleLogging();
-
+```
+```javascript
 // Enable production mode (captures still work, but no console output)
 DigitagApiLogger.disableConsoleLogging();
+```
 
 API REFERENCE
 -----------
@@ -141,3 +143,9 @@ CONTRIBUTING
 -----------
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+CONTRIBUTORS
+-----------
+<a href="https://github.com/ricardopxlcl/APILogger/graphs/contributors">
+  <img src="https://contrib.rocks/image?ricardopxlcl/APILogger" />
+</a>
