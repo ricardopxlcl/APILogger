@@ -41,7 +41,7 @@ DigitagApiLogger.init({
 
 CONFIGURATION OPTIONS
 -------------------
-
+```javascript
 DigitagApiLogger.init({
   enabled: true,              // Enable/disable the logger
   maxLoggedEvents: 100,       // Maximum number of events to track
@@ -54,6 +54,7 @@ DigitagApiLogger.init({
   logLevel: "info",           // Log level: 'debug', 'info', 'warn', 'error'
   logToConsole: true          // Enable/disable console output
 });
+```
 
 CAPTURING SPECIFIC REQUESTS
 -------------------------
