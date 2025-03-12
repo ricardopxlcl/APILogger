@@ -18,7 +18,7 @@ A lightweight JavaScript library for tracking and intercepting API requests in w
 
 Add the script tag to your HTML:
 ```javascript
-`<script src="digitag-api-logger.js"></script>`
+<script src="https://cdn.jsdelivr.net/gh/ricardopxlcl/APILogger/digitag-api-logger.min.js" defer></script>
 ```
 
 ### NPM (coming soon)
